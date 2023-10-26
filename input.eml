@@ -1,0 +1,2811 @@
+Return-Path: <noreply@battle.net>
+Authentication-Results:  gmx.net; dkim=pass header.i=@battle.net
+Received: from ams1b-admin-mta-01.mta.blizzard.com ([185.60.113.118]) by
+ mx-ha.gmx.net (mxgmx007 [212.227.15.9]) with ESMTPS (Nemesis) id
+ 1MGR3v-1qiMNE2FP3-004kfh for <wolfgang.braun@gmx.de>; Mon, 23 Oct 2023
+ 06:20:21 +0200
+Date: Mon, 23 Oct 2023 04:20:20 +0000 (UTC)
+DKIM-Filter: OpenDKIM Filter v2.11.0 ams1b-admin-mta-01.mta.blizzard.com F07D4BDC53
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=battle.net;
+	s=default; t=1698034821;
+	bh=TEJuJwWi4PtxqkyeFzQNvvYiDRXkFSKMfZtBG1yobec=;
+	h=Date:From:To:Subject:From;
+	b=hI9RNQsqi8oG3IbP+mz8QqYyuuycGpxy9ilzFiiTxlHl+fSUEJypPoaX1wT9KGBOk
+	 y5nG0j5w0Y70CBQktejKYM42QCtTLq4bUB4JFDuEbaQtpyvWfU4QZyJdskPgykGhr2
+	 zei6RiC8LED7sKKb6/hGfS0jBk3MlCJZmQAm9UkA=
+From: "Battle.net" <noreply@battle.net>
+To: wolfgang.braun@gmx.de
+Message-ID: <1365420870.3896967.1698034820982@ams1b-eu-bn-ac-nexus-notification-prod-blue-01.ams1b.cloud.blizzard.net>
+Subject: =?UTF-8?Q?World_of_Warcraft=C2=AE_Gameplay-Bericht_?=
+ =?UTF-8?Q?f=C3=BCr_14_Oktober_2023_=E2=80=93_21_Oktober_2023?=
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_3896965_1280645982.1698034820976"
+Envelope-To: <wolfgang.braun@gmx.de>
+X-GMX-Antispam: 0 (Mail was not recognized as spam); Detail=V3;
+X-Spam-Flag: NO
+UI-InboundReport: notjunk:1;M01:P0:jyK7SiEPFgA=;KRgapLwVAVjHO47+qpIQDyLIPNec
+ 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
+ 3Sob+/oz7TEPyqIR2iCl3R2bjfqjGxSg4s=
+
+------=_Part_3896965_1280645982.1698034820976
+Content-Type: multipart/related; 
+	boundary="----=_Part_3896966_758229854.1698034820976"
+
+------=_Part_3896966_758229854.1698034820976
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF-8" />
+<meta charset=3D"utf-8" />
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"=
+ />
+<meta name=3D"format-detection" content=3D"telephone=3Dno" />
+<meta name=3D"format-detection" content=3D"date=3Dno" />
+<meta name=3D"format-detection" content=3D"address=3Dno" />
+<meta name=3D"format-detection" content=3D"email=3Dno" />
+<title>World of Warcraft=C2=AE Gameplay-Bericht f=C3=BCr 14 Oktober 2023 =
+=E2=80=93 21 Oktober 2023</title>
+<!--[if !mso]><!-->
+<style type=3D"text/css">
+/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+@FONT-FACE IMPORT
+Noto Sans
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D */
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/notosans/v11/o-0IIpQlx3QUlC5A4PNr6DRAS=
+f6M7VBj.woff2) format('woff2');
+unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, =
+U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/notosans/v11/o-0IIpQlx3QUlC5A4PNr4TRAS=
+f6M7VBj.woff2) format('woff2');
+unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: local('=E2=98=BA=EF=B8=8E'), url(https://fonts.gstatic.com/s/notosans/=
+v11/o-0IIpQlx3QUlC5A4PNr5DRASf6M7VBj.woff2) format('woff2');
+unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, =
+U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* greek-ext */
+@font-face {
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: local('=E2=98=BA=EF=B8=8E'), url(https://fonts.gstatic.com/s/notosans/=
+v11/o-0IIpQlx3QUlC5A4PNr6TRASf6M7VBj.woff2) format('woff2');
+unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: local('=E2=98=BA=EF=B8=8E'), url(https://fonts.gstatic.com/s/notosans/=
+v11/o-0IIpQlx3QUlC5A4PNr5jRASf6M7VBj.woff2) format('woff2');
+unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: local('=E2=98=BA=EF=B8=8E'), url(https://fonts.gstatic.com/s/notosans/=
+v11/o-0IIpQlx3QUlC5A4PNr6jRASf6M7VBj.woff2) format('woff2');
+unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-0=
+1A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: local('=E2=98=BA=EF=B8=8E'), url(https://fonts.gstatic.com/s/notosans/=
+v11/o-0IIpQlx3QUlC5A4PNr6zRASf6M7VBj.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20A=
+D-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: local('=E2=98=BA=EF=B8=8E'), url(https://fonts.gstatic.com/s/notosans/=
+v11/o-0IIpQlx3QUlC5A4PNr5TRASf6M7Q.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02D=
+A, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2=
+215, U+FEFF, U+FFFD;
+}
+</style>
+<!--<![endif]-->
+<style type=3D"text/css">
+/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+CSS RESET FOR HTML EMAILS
+I. Outlook hacks and resets
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D */
+/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+I. Outlook hacks and resets
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D */
+#outlook a {
+padding: 0;
+}
+.ReadMsgBody {
+width: 100%;
+}
+.ExternalClass {
+width: 100%;
+}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font,=
+ .ExternalClass td, .ExternalClass div {
+line-height: 100%;
+}
+body, table, td, a {
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+}
+table, td {
+mso-table-lspace: 0;
+mso-table-rspace: 0;
+}
+img {
+-ms-interpolation-mode: bicubic;
+}
+body {
+margin: 0;
+padding: 0;
+}
+img {
+line-height: 100%;
+height: auto;
+text-decoration: none;
+border: 0;
+outline: none;
+}
+table {
+border-collapse: collapse !important;
+}
+body {
+width: 100% !important;
+height: 100% !important;
+margin: 0;
+padding: 0;
+background-color: #000000 !important;
+}
+a[href^=3D"mailto"] {
+text-decoration: none !important;
+color: #148eff !important;
+}
+hr {
+width: 100% !important;
+height: 1px !important;
+background-color: #373940 !important;
+border: 0 !important;
+}
+/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+DEFAULT STYLES
+I. Preheader hide
+II. Links
+III. Apple Blue Link Fixes
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D */
+/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+I. Preheader hide
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D */
+.preheader {
+display: none !important;
+}
+/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+II. Links
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D */
+a:link, a:hover, a:visited, a:focus {
+text-decoration: none;
+}
+/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+III. Apple Blue Link Fixes
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D */
+a[x-apple-data-detectors] {
+font-family: inherit !important;
+font-size: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+text-decoration: none !important;
+color: inherit !important;
+}
+/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+MEDIA QUERIES
+I. Webkit, Chrome and Safari Media Query
+II. Landscape
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D */
+/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+I. Webkit, Chrome and Safari Media Query
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+/* DEFAULTS */
+a[x-apple-data-detectors] {
+font-family: inherit !important;
+font-size: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+text-decoration: none !important;
+color: inherit !important;
+}
+img[class=3D'img-hide'] {
+display: none !important;
+}
+td[class=3D'img-hide'] {
+display: none !important;
+}
+td[class=3D'display-block'] {
+display: block !important;
+}
+div[class=3D'display-block'] {
+display: block !important;
+}
+}
+/* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+II. Landscape
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D */
+@media screen and (max-width: 525px) {
+/* DEFAULTS */
+table[class=3D'wrapper'] {
+width: 100% !important;
+}
+table[class=3D'mobile-hide'] {
+display: none !important;
+}
+td[class=3D'mobile-hide'] {
+display: none !important;
+}
+img[class=3D'mobile-hide'] {
+display: none !important;
+}
+td[class=3D'display-img'] {
+display: block !important;
+max-width: 100% !important;
+height: auto !important;
+}
+td[class=3D'logo'] img {
+margin: 0 auto !important;
+}
+td[class=3D'center'] {
+text-align: center !important;
+}
+img[class=3D'img-max'] {
+width: 100%;
+max-width: 100%;
+height: auto;
+}
+table[class=3D'responsive-table'] {
+min-width: 0 !important;
+width: 100% !important;
+}
+/* 2-COLUMN - BUTTONS */
+td[class=3D'2-column-buttons-section-padding-0px-15px-20px'] {
+padding: 0 15px 20px !important;
+}
+td[class=3D'2-column-buttons-padding-0px-5p-0px-center'] {
+padding: 0 5% 0 !important;
+text-align: center !important;
+}
+td[class=3D'2-column-buttons-padding-0px-center'] {
+padding: 0 !important;
+text-align: center !important;
+}
+td[class=3D'2-column-buttons-padding-0px-center'] {
+display: block !important;
+padding: 0 !important;
+text-align: center !important;
+}
+td[class=3D'2-column-buttons-padding-15px-1p-10px-font-18px-center'] {
+font-size: 18px !important;
+padding: 15px 1% 10px !important;
+text-align: center !important;
+}
+td[class=3D'2-column-buttons-padding-0px-1p-30px-font-12px-center'] {
+font-size: 12px !important;
+padding: 0 1% 30px !important;
+text-align: center !important;
+}
+td[class=3D'2-column-buttons-cta-button-padding-0px-5p-30px'] {
+padding: 0 5% 30px !important;
+}
+/* 2-COLUMN - IMAGE - SUBHEADER - BODY TEXT */
+td[class=3D'2-column-image-subheader-body-text-section-padding-0px-15px-20p=
+x'] {
+padding: 0 15px 20px !important;
+}
+td[class=3D'2-column-image-subheader-body-text-padding-0px-5p-0px-center'] =
+{
+padding: 0 5% 0 !important;
+text-align: center !important;
+}
+td[class=3D'2-column-image-subheader-body-text-padding-0px-center'] {
+display: block !important;
+padding: 0 !important;
+text-align: center !important;
+}
+td[class=3D'2-column-image-subheader-body-text-padding-15px-1p-10px-font-18=
+px-center'] {
+font-size: 18px !important;
+padding: 15px 1% 10px !important;
+text-align: center !important;
+}
+td[class=3D'2-column-image-subheader-body-text-padding-0px-1p-30px-font-12p=
+x-center'] {
+font-size: 12px !important;
+padding: 0 1% 30px !important;
+text-align: center !important;
+}
+td[class=3D'2-column-image-subheader-body-text-padding-0px-1p-30px-font-14p=
+x-center'] {
+font-size: 14px !important;
+padding: 0 1% 30px !important;
+text-align: center !important;
+}
+/* 2-COLUMN - IMAGE */
+td[class=3D'2-column-image-section-padding-0px-15px-0px'] {
+padding: 0 15px 0 !important;
+}
+td[class=3D'2-column-image-padding-0px-5p-0px-center'] {
+padding: 0 5% 0 !important;
+text-align: center !important;
+}
+td[class=3D'2-column-image-padding-0px-5p-20px-center'] {
+padding: 0 5% 20px !important;
+text-align: center !important;
+}
+td[class=3D'2-column-image-padding-10px-0px-0px-center'] {
+display: block !important;
+padding: 10px 0 0 !important;
+text-align: center !important;
+}
+/* 3-COLUMN - IMAGE */
+td[class=3D'3-column-image-section-padding-0px-15px-20px'] {
+padding: 0 15px 20px !important;
+}
+td[class=3D'3-column-image-padding-0px-5p-0px-center'] {
+padding: 0 5% 0 !important;
+text-align: center !important;
+}
+td[class=3D'3-column-image-padding-0px-center'] {
+display: block !important;
+padding: 0 !important;
+text-align: center !important;
+}
+/* 3-COLUMN - IMAGE - SUBHEADER - BODY TEXT */
+td[class=3D'3-column-image-subheader-body-text-section-padding-0px-15px-20p=
+x'] {
+padding: 0 15px 20px !important;
+}
+td[class=3D'3-column-image-subheader-body-text-padding-0px-5p-0px-center'] =
+{
+padding: 0 5% 0 !important;
+text-align: center !important;
+}
+td[class=3D'3-column-image-subheader-body-text-padding-0px-center'] {
+display: block !important;
+padding: 0 !important;
+text-align: center !important;
+}
+td[class=3D'3-column-image-subheader-body-text-padding-15px-1p-10px-font-18=
+px-center'] {
+font-size: 18px !important;
+padding: 15px 1% 10px !important;
+text-align: center !important;
+}
+td[class=3D'3-column-image-subheader-body-text-padding-0px-1p-30px-font-12p=
+x-center'] {
+font-size: 12px !important;
+padding: 0 1% 30px !important;
+text-align: center !important;
+}
+td[class=3D'3-column-image-subheader-body-text-padding-0px-1p-30px-font-14p=
+x-center'] {
+font-size: 14px !important;
+padding: 0 1% 30px !important;
+text-align: center !important;
+}
+/* 3-COLUMN - IMAGE */
+td[class=3D'3-column-image-section-padding-0px-15px-20px'] {
+padding: 0 15px 20px !important;
+}
+td[class=3D'3-column-image-padding-0px-5p-0px-center'] {
+padding: 0 5% 0 !important;
+text-align: center !important;
+}
+td[class=3D'3-column-image-padding-0px-center'] {
+display: block !important;
+padding: 0 !important;
+text-align: center !important;
+}
+/* BODY TEXT */
+td[class=3D'body-text-section-padding-0px-15px-10px'] {
+padding: 0 15px 10px !important;
+}
+td[class=3D'body-text-padding-0px-5p-0px-font-10px-left'] {
+font-size: 10px !important;
+padding: 0 5% 0 !important;
+text-align: left !important;
+}
+td[class=3D'body-text-padding-0px-5p-0px-font-10px-center'] {
+font-size: 10px !important;
+padding: 0 5% 0 !important;
+text-align: center !important;
+}
+td[class=3D'body-text-padding-0px-5p-0px-font-10px-right'] {
+font-size: 10px !important;
+padding: 0 5% 0 !important;
+text-align: right !important;
+}
+td[class=3D'body-text-padding-0px-5p-30px-font-10px-left'] {
+font-size: 10px !important;
+padding: 0 5% 30px !important;
+text-align: left !important;
+}
+td[class=3D'body-text-padding-0px-5p-30px-font-10px-center'] {
+font-size: 10px !important;
+padding: 0 5% 30px !important;
+text-align: center !important;
+}
+td[class=3D'body-text-padding-0px-5p-30px-font-10px-right'] {
+font-size: 10px !important;
+padding: 0 5% 30px !important;
+text-align: right !important;
+}
+td[class=3D'body-text-padding-0px-5p-0px-font-12px-left'] {
+font-size: 12px !important;
+padding: 0 5% 0 !important;
+text-align: left !important;
+}
+td[class=3D'body-text-padding-0px-5p-0px-font-12px-center'] {
+font-size: 12px !important;
+padding: 0 5% 0 !important;
+text-align: center !important;
+}
+td[class=3D'body-text-padding-0px-5p-0px-font-12px-right'] {
+font-size: 12px !important;
+padding: 0 5% 0 !important;
+text-align: right !important;
+}
+td[class=3D'body-text-padding-0px-5p-16px-font-12px-left'] {
+font-size: 12px !important;
+padding: 0 5% 16px !important;
+text-align: left !important;
+}
+td[class=3D'body-text-padding-0px-5p-16px-font-12px-center'] {
+font-size: 12px !important;
+padding: 0 5% 16px !important;
+text-align: center !important;
+}
+td[class=3D'body-text-padding-0px-5p-16px-font-12px-right'] {
+font-size: 12px !important;
+padding: 0 5% 16px !important;
+text-align: right !important;
+}
+td[class=3D'body-text-padding-0px-5p-30px-font-12px-left'] {
+font-size: 12px !important;
+padding: 0 5% 30px !important;
+text-align: left !important;
+}
+td[class=3D'body-text-padding-0px-5p-30px-font-12px-center'] {
+font-size: 12px !important;
+padding: 0 5% 30px !important;
+text-align: center !important;
+}
+td[class=3D'body-text-padding-0px-5p-30px-font-12px-right'] {
+font-size: 12px !important;
+padding: 0 5% 30px !important;
+text-align: right !important;
+}
+td[class=3D'body-text-padding-0px-5p-30px-font-14px-left'] {
+font-size: 14px !important;
+padding: 0 5% 30px !important;
+text-align: left !important;
+}
+td[class=3D'body-text-padding-0px-5p-30px-font-14px-center'] {
+font-size: 14px !important;
+padding: 0 5% 30px !important;
+text-align: center !important;
+}
+td[class=3D'body-text-padding-0px-5p-30px-font-14px-right'] {
+font-size: 14px !important;
+padding: 0 5% 30px !important;
+text-align: right !important;
+}
+/* BODY TEXT LEFT - BODY TEXT RIGHT - 30/70% */
+td[class=3D'body-text-left-body-text-right-30-70-section-padding-0px-15px-1=
+6px'] {
+padding: 0 15px 16px !important;
+}
+td[class=3D'body-text-left-body-text-right-30-70-padding-0px-center'] {
+padding: 0 !important;
+text-align: center !important;
+}
+td[class=3D'body-text-left-body-text-right-30-70-padding-0px-5p-40px-center=
+'] {
+padding: 0 5% 40px !important;
+text-align: center !important;
+}
+td[class=3D'body-text-left-body-text-right-30-70-padding-0px-5p-30px-center=
+'] {
+padding: 0 5% 30px !important;
+text-align: center !important;
+}
+td[class=3D'body-text-left-body-text-right-30-70-padding-0px-5p-16px-center=
+'] {
+padding: 0 5% 16px !important;
+text-align: center !important;
+}
+td[class=3D'body-text-left-body-text-right-30-70-padding-0px-5p-0px-center'=
+] {
+padding: 0 5% 0 !important;
+text-align: center !important;
+}
+td[class=3D'body-text-left-body-text-right-30-70-padding-0px-0px-30px-cente=
+r'] {
+padding: 0 0 30px !important;
+text-align: center !important;
+}
+td[class=3D'body-text-left-body-text-right-30-70-padding-0px-font-12px-left=
+'] {
+font-size: 12px !important;
+line-height: 18px !important;
+padding: 0 !important;
+text-align: left !important;
+}
+td[class=3D'body-text-left-body-text-right-30-70-padding-0px-font-12px-cent=
+er'] {
+font-size: 12px !important;
+line-height: 18px !important;
+padding: 0 !important;
+text-align: center !important;
+}
+td[class=3D'body-text-left-body-text-right-30-70-padding-0px-font-12px-righ=
+t'] {
+font-size: 12px !important;
+line-height: 18px !important;
+padding: 0 !important;
+text-align: right !important;
+}
+/* CTA BUTTON */
+td[class=3D'cta-button-section-padding-0px-15px-10px'] {
+padding: 0 15px 10px !important;
+}
+td[class=3D'cta-button-padding-0px-5p-30px'] {
+padding: 0 5% 30px !important;
+}
+td[class=3D'cta-button-padding-0px-5p-40px'] {
+padding: 0 5% 40px !important;
+}
+/* CODE REDEMPTION */
+td[class=3D'code-redemption-section-padding-0px-15px-10px'] {
+padding: 0 15px 10px !important;
+}
+td[class=3D'code-redemption-padding-0px-5p-10px'] {
+padding: 0 5% 10px !important;
+}
+td[class=3D'code-redemption-padding-0px-5p-30px'] {
+padding: 0 5% 30px !important;
+}
+/* FULL-WIDTH IMAGE */
+td[class=3D'full-width-image-section-padding-0px'] {
+padding: 0 !important;
+}
+td[class=3D'full-width-image-padding-0px-0px-40px-center'] {
+display: block !important;
+padding: 0 0 40px !important;
+text-align: center !important;
+}
+td[class=3D'full-width-image-padding-0px-0px-20px-center'] {
+display: block !important;
+padding: 0 0 20px !important;
+text-align: center !important;
+}
+td[class=3D'full-width-image-padding-0px-center'] {
+display: block !important;
+padding: 0 !important;
+text-align: center !important;
+}
+/* HEADER TEXT */
+td[class=3D'header-section-padding-0px-15px-0px'] {
+padding: 0 15px 0 !important;
+}
+td[class=3D'header-section-padding-0px-15px-10px'] {
+padding: 0 15px 10px !important;
+}
+td[class=3D'header-padding-0px-5p-0px-font-center'] {
+font-size: 22px !important;
+line-height: 30px !important;
+padding: 0 5% 0 !important;
+text-align: center !important;
+}
+td[class=3D'header-padding-0px-5p-10px-font-center'] {
+font-size: 22px !important;
+line-height: 30px !important;
+padding: 0 5% 10px !important;
+text-align: center !important;
+}
+/* IMAGE LEFT - BODY TEXT RIGHT - 30/70% */
+td[class=3D'image-left-body-text-right-30-70-section-padding-0px-15px-20px'=
+] {
+padding: 0 15px 20px !important;
+}
+td[class=3D'image-left-body-text-right-30-70-section-padding-0px-0px-10px']=
+ {
+padding: 0 0 10px !important;
+}
+td[class=3D'image-left-body-text-right-30-70-padding-0px-center'] {
+padding: 0 !important;
+text-align: center !important;
+}
+td[class=3D'image-left-body-text-right-30-70-padding-0px-5p-0px-center'] {
+padding: 0 5% 0 !important;
+text-align: center !important;
+}
+td[class=3D'image-left-body-text-right-30-70-padding-0px-1p-10px-font-12px-=
+center'] {
+font-size: 12px !important;
+line-height: 24px !important;
+padding: 0 1% 10px !important;
+text-align: center !important;
+}
+/* IMAGE LEFT - ICON - SUBHEADER - BODY TEXT RIGHT */
+td[class=3D'image-left-icon-subheader-body-text-right-section-padding-0px-1=
+5px-20px'] {
+padding: 0 15px 20px !important;
+}
+td[class=3D'image-left-icon-subheader-body-text-right-padding-0px-center'] =
+{
+padding: 0 !important;
+text-align: center !important;
+}
+td[class=3D'image-left-icon-subheader-body-text-right-padding-0px-0px-10px'=
+] {
+padding: 0 0 10px !important;
+}
+td[class=3D'image-left-icon-subheader-body-text-right-padding-0px-5p'] {
+padding: 0 5% !important;
+}
+td[class=3D'image-left-icon-subheader-body-text-right-padding-10px-5p-10px-=
+center'] {
+padding: 10px 5% 10px !important;
+text-align: center !important;
+}
+td[class=3D'image-left-icon-subheader-body-text-right-padding-0px-1p-10px-f=
+ont-12px-left'] {
+font-size: 12px !important;
+line-height: 24px !important;
+padding: 0 1% 10px !important;
+text-align: left !important;
+}
+td[class=3D'image-left-icon-subheader-body-text-right-padding-0px-1p-10px-f=
+ont-14px-left'] {
+font-size: 14px !important;
+line-height: 24px !important;
+padding: 0 1% 10px !important;
+text-align: left !important;
+}
+td[class=3D'image-left-icon-subheader-body-text-right-padding-0px-1p-10px-f=
+ont-16px-center'] {
+font-size: 16px !important;
+line-height: 24px !important;
+padding: 0 1% 10px !important;
+text-align: center !important;
+}
+td[class=3D'image-left-icon-subheader-body-text-right-padding-0px-1p-20px-f=
+ont-18px-center'] {
+font-size: 16px !important;
+padding: 0px 1% 20px !important;
+text-align: center !important;
+}
+/* IMAGE LEFT - SUBHEADER - BODY TEXT RIGHT */
+td[class=3D'image-left-subheader-body-text-right-section-padding-0px-15px']=
+ {
+padding: 0 15px !important;
+}
+td[class=3D'image-left-subheader-body-text-right-section-padding-0px-0px-10=
+px'] {
+padding: 0 0 10px !important;
+}
+td[class=3D'image-left-subheader-body-text-right-section-padding-0px-15px-1=
+0px'] {
+padding: 0 15px 10px !important;
+}
+td[class=3D'image-left-subheader-body-text-right-section-padding-0px-15px-2=
+0px'] {
+padding: 0 15px 20px !important;
+}
+td[class=3D'image-left-subheader-body-text-right-padding-0px-5p-0px-center'=
+] {
+padding: 0 5% 0 !important;
+text-align: center !important;
+}
+td[class=3D'image-left-subheader-body-text-right-section-padding-10px-15px-=
+10px'] {
+padding: 10px 15px 10px !important;
+}
+td[class=3D'image-left-subheader-body-text-right-padding-0px-1p-10px-font-1=
+2px-center'] {
+font-size: 12px !important;
+line-height: 24px !important;
+padding: 0 1% 10px !important;
+text-align: center !important;
+}
+td[class=3D'image-left-subheader-body-text-right-padding-0px-1p-10px-font-1=
+4px-center'] {
+font-size: 14px !important;
+line-height: 20px !important;
+padding: 0 1% 10px !important;
+text-align: center !important;
+}
+td[class=3D'image-left-subheader-body-text-right-padding-0px-5p'] {
+padding: 0 5% !important;
+}
+td[class=3D'image-left-subheader-body-text-right-padding-10px-5p-10px-cente=
+r'] {
+padding: 10px 5% 10px !important;
+text-align: center !important;
+}
+td[class=3D'image-left-subheader-body-text-right-padding-0px-center'] {
+display: block !important;
+padding: 0 !important;
+text-align: center !important;
+}
+td[class=3D'image-left-subheader-body-text-right-padding-15px-1p-10px-font-=
+18px-center'] {
+font-size: 18px !important;
+padding: 15px 1% 10px !important;
+text-align: center !important;
+}
+/* IMAGE LEFT - TEXT RIGHT - BUTTON */
+td[class=3D'image-left-text-right-button-section-padding-0px-15px'] {
+padding: 0 15px !important;
+}
+td[class=3D'image-left-text-right-button-section-padding-10px-15px-10px'] {
+padding: 10px 15px 10px !important;
+}
+td[class=3D'image-left-text-right-button-padding-0px-5p'] {
+padding: 0 5% !important;
+}
+td[class=3D'image-left-text-right-button-padding-10px-5p-10px-center'] {
+padding: 10px 5% 10px !important;
+text-align: center !important;
+}
+td[class=3D'image-left-text-right-button-padding-0px-center'] {
+display: block !important;
+padding: 0 !important;
+text-align: center !important;
+}
+/* LIST */
+td[class=3D'list-text-section-padding-0px-15px-10px'] {
+padding: 0 15px 10px !important;
+}
+td[class=3D'list-padding-0px-5p-40px-40px-left'] {
+padding: 0 5% 40px 40px !important;
+text-align: left !important;
+}
+td[class=3D'list-padding-0px-5p-30px-40px-left'] {
+padding: 0 5% 30px 40px !important;
+text-align: left !important;
+}
+td[class=3D'list-padding-0px-5p-16px-40px-left'] {
+padding: 0 5% 16px 40px !important;
+text-align: left !important;
+}
+td ul[class=3D'mobile-list'] {
+font-size: 12px !important;
+margin-left: 0 !important;
+}
+/* MULTIPLE ICONS */
+td[class=3D'multiple-icons-section-padding-0px-15px-10px'] {
+padding: 0 15px 10px !important;
+}
+/* PURCHASE DETAILS */
+td[class=3D'purchase-details-section-padding-0px-0px-10px'] {
+padding: 0 0 10px !important;
+}
+td[class=3D'purchase-details-section-padding-0px-15px-20px'] {
+padding: 0 15px 20px !important;
+}
+td[class=3D'purchase-details-padding-0px-center'] {
+display: block !important;
+padding: 0 !important;
+text-align: center !important;
+}
+td[class=3D'purchase-details-padding-0px-5p-0px-center'] {
+padding: 0 5% 0 !important;
+text-align: center !important;
+}
+td[class=3D'purchase-details-padding-15px-0px-0px-font-10px-left'] {
+font-size: 10px !important;
+padding: 10px 0 0 !important;
+text-align: left !important;
+}
+td[class=3D'purchase-details-padding-0px-0px-10px-font-12px-left'] {
+font-size: 12px !important;
+line-height: 18px !important;
+padding: 0 0 10px !important;
+text-align: left !important;
+}
+/* PURCHASE ITEM */
+td[class=3D'purchase-item-section-padding-0px-15px-20px'] {
+padding: 0 15px 20px !important;
+}
+td[class=3D'purchase-item-section-padding-0px-0px-10px'] {
+padding: 0 0 10px !important;
+}
+td[class=3D'purchase-item-padding-0px-center'] {
+padding: 0 !important;
+text-align: center !important;
+}
+td[class=3D'purchase-item-padding-0px-5p-0px-center'] {
+padding: 0 5% 0 !important;
+text-align: center !important;
+}
+td[class=3D'purchase-item-padding-0px-1p-5px-font-12px-left'] {
+font-size: 12px !important;
+line-height: 16px !important;
+padding: 0 1% 5px !important;
+text-align: left !important;
+}
+td[class=3D'purchase-item-padding-0px-1p-10px-font-14px-left'] {
+font-size: 14px !important;
+line-height: 18px !important;
+padding: 0 1% 10px !important;
+text-align: left !important;
+}
+/* SPECIAL TEXT - BATTLETAG */
+td[class=3D'special-text-battletag-section-padding-0px-15px-0px'] {
+padding: 0 15px 0 !important;
+}
+td[class=3D'special-text-battletag-section-padding-0px-15px-10px'] {
+padding: 0 15px 10px !important;
+}
+td[class=3D'special-text-battletag-padding-0px-5p-0px-font-14px-center'] {
+font-size: 14px !important;
+line-height: 16px !important;
+padding: 0 5% 0 !important;
+text-align: center !important;
+}
+td[class=3D'special-text-battletag-padding-0px-5p-10px-font-16px-center'] {
+font-size: 16px !important;
+line-height: 18px !important;
+padding: 0 5% 10px !important;
+text-align: center !important;
+}
+/* SPECIAL TEXT - CAPTION*/
+td[class=3D'special-text-caption-section-padding-0px-15px-10px'] {
+padding: 0 15px 10px !important;
+}
+td[class=3D'special-text-caption-padding-0px-5p-30px-font-12px-center'] {
+font-size: 12px !important;
+padding: 0 5% 30px !important;
+text-align: center !important;
+}
+/* SPECIAL TEXT - SUBHEADER */
+td[class=3D'special-text-subheader-section-padding-0px-15px-0px'] {
+padding: 0 15px 0 !important;
+}
+td[class=3D'special-text-subheader-padding-0px-5p-20px-font-14px-center'] {
+font-size: 14px !important;
+line-height: 16px !important;
+padding: 0 5% 20px !important;
+text-align: center !important;
+}
+/* SUBHEADER TEXT */
+td[class=3D'subheader-section-padding-0px-15px-10px'] {
+padding: 0 15px 10px !important;
+}
+td[class=3D'subheader-section-padding-30px-15px-10px'] {
+padding: 30px 15px 10px !important;
+}
+td[class=3D'subheader-padding-0px-5p-10px-font-20px-center'] {
+font-size: 20px !important;
+line-height: 28px !important;
+padding: 0 5% 10px !important;
+text-align: center !important;
+}
+td[class=3D'subheader-padding-0px-5p-10px-font-center'] {
+font-size: 20px !important;
+line-height: 24px !important;
+padding: 0 5% 10px !important;
+text-align: center !important;
+}
+td[class=3D'image-left-text-right-button-padding-30px-0px-0px-center'] {
+display: block !important;
+padding: 30px 0 0 !important;
+text-align: center !important;
+}
+td[class=3D'image-left-text-right-button-padding-0px-5p-30px-font-12px-left=
+'] {
+font-size: 12px !important;
+padding: 0 5% 30px !important;
+text-align: left !important;
+}
+td[class=3D'image-left-text-right-button-padding-0px-5p-30px-font-14px-left=
+'] {
+font-size: 14px !important;
+padding: 0 5% 30px !important;
+text-align: left !important;
+}
+/* SOCIAL */
+td[class=3D'social-section-padding-0px-0px-30px'] {
+padding: 0 0 30px !important;
+background-color: #1a1c23 !important;
+}
+/* For when there is no intro text */
+td[class=3D'social-section-padding-0px-15px-0px'] {
+padding: 0 15px 0 !important;
+background-color: #1a1c23 !important;
+}
+td[class=3D'social-section-padding-0px-15px-10px'] {
+padding: 0 15px 10px !important;
+background-color: #1a1c23 !important;
+}
+td[class=3D'social-padding-0px-center'] {
+display: block !important;
+padding: 0 !important;
+text-align: center !important;
+}
+td[class=3D'social-padding-0px-5p-10px'] {
+padding: 0 5% 10px !important;
+}
+td[class=3D'social-padding-0px-5p-10px-font-12px-center'] {
+font-size: 12px !important;
+padding: 0 5% 10px !important;
+text-align: center !important;
+}
+td[class=3D'social-padding-0px-5p-10px-font-14px-center'] {
+font-size: 14px !important;
+padding: 0 5% 10px !important;
+text-align: center !important;
+}
+td[class=3D'social-padding-0px-5p-0px-font-24px-center'] {
+font-size: 24px !important;
+line-height: 30px !important;
+padding: 0 5% 0 !important;
+text-align: center !important;
+}
+/* For when there is no intro text */
+td[class=3D'social-padding-0px-5p-10px-font-24px-center'] {
+font-size: 24px !important;
+line-height: 30px !important;
+padding: 0 5% 10px !important;
+text-align: center !important;
+}
+/* RATING */
+td[class=3D'rating-section-padding-0px'] {
+padding: 0 !important;
+background-color: #15171e !important;
+}
+td[class=3D'rating-section-padding-10px-15px-10px'] {
+padding: 10px 15px 10px !important;
+background-color: #15171e !important;
+}
+td[class=3D'rating-section-padding-20px-15px-10px'] {
+padding: 20px 15px 10px !important;
+background-color: #15171e !important;
+}
+td[class=3D'rating-section-padding-25px-15px-25px'] {
+padding: 25px 15px 25px !important;
+background-color: #15171e !important;
+}
+td[class=3D'rating-padding-0px-center'] {
+display: block !important;
+padding: 0 !important;
+text-align: center !important;
+}
+td[class=3D'rating-padding-0px-5p-30px-center'] {
+padding: 0 5% 30px !important;
+text-align: center !important;
+}
+td[class=3D'rating-padding-0px-10p-30px-center'] {
+padding: 0 10% 30px !important;
+text-align: center !important;
+}
+td[class=3D'rating-padding-5px-0px-center'] {
+display: block !important;
+width: 100% !important;
+padding: 5px 0 !important;
+text-align: center !important;
+border-bottom: 1px solid #0d3551;
+}
+td[class=3D'rating-padding-10px-5p-10px-left'] {
+padding: 10px 5% 10px !important;
+text-align: left !important;
+}
+td[class=3D'rating-padding-10px-5p-10px-center'] {
+padding: 10px 5% 10px !important;
+text-align: center !important;
+}
+td[class=3D'rating-padding-30px-0px-0px-center'] {
+display: block !important;
+padding: 30px 0 0 !important;
+text-align: center !important;
+}
+/* FOOTER */
+td[class=3D'footer-section-padding-0px'] {
+padding: 0 !important;
+background-color: #1a1c23 !important;
+}
+td[class=3D'footer-section-padding-10px-15px-10px'] {
+padding: 10px 15px 10px !important;
+background-color: #1a1c23 !important;
+}
+td[class=3D'footer-section-padding-20px-15px-10px'] {
+padding: 20px 15px 10px !important;
+background-color: #1a1c23 !important;
+}
+td[class=3D'footer-section-padding-25px-15px-25px'] {
+padding: 25px 15px 25px !important;
+background-color: #1a1c23 !important;
+}
+td[class=3D'footer-padding-0px-center'] {
+display: block !important;
+padding: 0 !important;
+text-align: center !important;
+}
+td[class=3D'footer-padding-0px-5p-30px-center'] {
+padding: 0 5% 30px !important;
+text-align: center !important;
+}
+td[class=3D'footer-padding-0px-10p-30px-center'] {
+padding: 0 10% 30px !important;
+text-align: center !important;
+}
+td[class=3D'footer-padding-5px-0px-center'] {
+display: block !important;
+width: 100% !important;
+padding: 5px 0 !important;
+text-align: center !important;
+border-bottom: 1px solid #0d3551;
+}
+td[class=3D'footer-padding-10px-5p-10px-left'] {
+padding: 10px 5% 10px !important;
+text-align: center !important;
+}
+td[class=3D'footer-padding-10px-5p-10px-center'] {
+padding: 10px 5% 10px !important;
+text-align: center !important;
+}
+td[class=3D'footer-padding-30px-0px-0px-center'] {
+display: block !important;
+padding: 30px 0 0 !important;
+text-align: center !important;
+}
+/* HEADER */
+td[class=3D'header-section-padding-0px'] {
+padding: 0 !important;
+}
+td[class=3D'header-section-padding-25px-15px-25px'] {
+padding: 25px 15px 25px !important;
+}
+td[class=3D'header-padding-0px-center'] {
+display: block !important;
+padding: 0 !important;
+text-align: center !important;
+}
+td[class=3D'header-padding-20px-0px-30px'] {
+display: block !important;
+padding: 20px 0 30px !important;
+}
+/* WARNING */
+td[class=3D'warning-section-padding-0px'] {
+padding: 0 !important;
+}
+td[class=3D'warning-padding-10px-0px-left'] {
+padding: 10px 0 !important;
+text-align: left !important;
+}
+td[class=3D'warning-padding-0px-10px-0px-5p-left'] {
+padding: 0 10px 0 5% !important;
+text-align: left !important;
+}
+td[class=3D'warning-padding-0px-5p-0px-0px-left'] {
+padding: 0 5% 0 0 !important;
+text-align: left !important;
+}
+/* GIFT */
+td[class=3D'gift-section-padding-0px'] {
+padding: 0 !important;
+}
+td[class=3D'gift-padding-0px-0px-40px-center'] {
+display: block !important;
+padding: 0 0 40px !important;
+text-align: center !important;
+}
+td[class=3D'gift-padding-0px-0px-20px-center'] {
+display: block !important;
+padding: 0 0 20px !important;
+text-align: center !important;
+}
+td[class=3D'gift-padding-0px-center'] {
+display: block !important;
+padding: 0 !important;
+text-align: center !important;
+}
+td[class=3D'gift-image-section-padding-0px-15p-0px-center'] {
+display: block !important;
+padding: 0 15% 0 !important;
+text-align: center !important;
+}
+td[class=3D'gift-image-padding-0px-10p-0px-center'] {
+display: block !important;
+padding: 0 10% 0 !important;
+text-align: center !important;
+}
+/* CTA */
+.cta {
+display: block !important;
+}
+}
+.body-text-padding-0px-5p-30px-font-12px-left a,
+.body-text-padding-0px-5p-30px-font-12px-left p a {
+text-decoration: underline !important;
+color: #148eff !important;
+}
+.body-text-padding-0px-5p-30px-font-12px-left a.cta {
+text-decoration: none !important;
+color: #ffffff !important;
+}
+</style> </head>
+<body class=3D"body" style=3D"margin: 0; padding: 0; table-layout: fixed; -=
+webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-color=
+: #000000;">
+<center style=3D"margin: 0; padding: 0;">
+<table bgcolor=3D"#15171e" style=3D"background-color: #15171e; background-i=
+mage:linear-gradient(#15171e,#15171e);" class=3D"responsive-table">
+<tr>
+<td bgcolor=3D"#15171e" style=3D"background-color: #15171e; background-imag=
+e:linear-gradient(#15171e,#15171e);">
+<table class=3D"responsive-table" width=3D"600" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" align=3D"center" valign=3D"top" bgcolor=3D"#15171e" s=
+tyle=3D"width: 600px; min-width: 600px; border-spacing: 0; border-collapse:=
+ collapse; margin: 0 auto; word-wrap: break-word; word-break: break-word; -=
+ms-word-break: break-word; overflow-wrap: break-word; background-color: #15=
+171e; background-image:linear-gradient(#15171e,#15171e);">
+<tr>
+<td
+class=3D"header-section-padding-0px"
+style=3D"height: 50px;"
+align=3D"center"
+>
+<table class=3D"responsive-table" width=3D"600" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td
+class=3D"header-padding-0px-center"
+bgcolor=3D"#15171e"
+>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" styl=
+e=3D"width: 100%; min-width: 100%; border-spacing: 0; border-collapse: coll=
+apse; word-wrap: break-word; word-break: break-word; -ms-word-break: break-=
+word; overflow-wrap: break-word;">
+<tr>
+<td><img src=3D"http://media.blizzard.com/emails/global/shared-components/s=
+pacer.gif" style=3D"line-height: 0; visibility: hidden; min-width: 600px; h=
+eight: 1px; max-height: 1px; min-height: 1px; text-decoration: none; -ms-in=
+terpolation-mode: bicubic; border: none;" height=3D"1" /></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table class=3D"responsive-table" width=3D"600" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" align=3D"center" valign=3D"top" bgcolor=3D"#15171e" s=
+tyle=3D"width: 600px; min-width: 600px; border-spacing: 0; border-collapse:=
+ collapse; margin: 0 auto; word-wrap: break-word; word-break: break-word; -=
+ms-word-break: break-word; overflow-wrap: break-word; background-color: #15=
+171e; background-image:linear-gradient(#15171e,#15171e);">
+<tr>
+<td
+class=3D"header-section-padding-25px-15px-25px"
+align=3D"center"
+>
+<table class=3D"responsive-table" width=3D"600" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td
+class=3D"logo"
+style=3D"width: 600px; text-align: center"
+bgcolor=3D"#15171e"
+>
+<center>
+<a href=3D"https://battle.net" target=3D"_blank" alias=3D"Image Link (Battl=
+e.net Logo)">
+<img src=3D"https://bnetproduct-a.akamaihd.net/fef/98ade86ccaa737c0a348f470=
+d2beb3a7-logo.png" width=3D"341" height=3D"86" style=3D"font-family: 'Noto =
+Sans', 'Open Sans', Frutiger, 'Frutiger Linotype', Univers, 'Helvetica Neue=
+', Helvetica, Arial, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'De=
+jaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', 'Malgun Gothic', =
+'Microsoft YaHei', AppleSDGothicNeo, AppleGothic, Dotum, 'Microsoft JhengHe=
+i', 'Hiragino Kaku Gothic Pro', 'Hiragino Kaku Gothic ProN W3', Osaka, =E3=
+=83=A1=E3=82=A4=E3=83=AA=E3=82=AA, Meiryo, '=EF=BC=AD=EF=BC=B3 =EF=BC=B0=E3=
+=82=B4=E3=82=B7=E3=83=83=E3=82=AF', Calibri, Geneva, Display, Tahoma, Verda=
+na, sans-serif; font-size: 14px; display: block; margin: 0; padding: 0; tex=
+t-decoration: none; color: #292b33; margin: 0 auto;" alt=3D"Battle.net" bor=
+der=3D"0" class=3D""/>
+</a>
+</center>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table class=3D"responsive-table" width=3D"600" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" align=3D"center" valign=3D"top" bgcolor=3D"#15171e" s=
+tyle=3D"width: 600px; min-width: 600px; border-spacing: 0; border-collapse:=
+ collapse; margin: 0 auto; word-wrap: break-word; word-break: break-word; -=
+ms-word-break: break-word; overflow-wrap: break-word; background-color: #15=
+171e; background-image:linear-gradient(#15171e,#15171e);">
+<tr>
+<td
+class=3D"header-section-padding-0px"
+align=3D"center"
+>
+<table class=3D"responsive-table" width=3D"600" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td
+class=3D"header-padding-0px-center"
+bgcolor=3D"#15171e"
+>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" styl=
+e=3D"width: 100%; min-width: 100%; border-spacing: 0; border-collapse: coll=
+apse; word-wrap: break-word; word-break: break-word; -ms-word-break: break-=
+word; overflow-wrap: break-word;">
+<tr>
+<td class=3D"header-padding-20px-0px-30px" style=3D"padding: 30px 0;">
+<img src=3D"https://bnetproduct-a.akamaihd.net/4a/e8a0ab5204ab82c594147b525=
+5154ea1-image-battlenet-divider.png" width=3D"100%" height=3D"100%" style=
+=3D"font-family: 'Noto Sans', 'Open Sans', Frutiger, 'Frutiger Linotype', U=
+nivers, 'Helvetica Neue', Helvetica, Arial, 'Gill Sans', 'Gill Sans MT', 'M=
+yriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus San=
+s L', 'Malgun Gothic', 'Microsoft YaHei', AppleSDGothicNeo, AppleGothic, Do=
+tum, 'Microsoft JhengHei', 'Hiragino Kaku Gothic Pro', 'Hiragino Kaku Gothi=
+c ProN W3', Osaka, =E3=83=A1=E3=82=A4=E3=83=AA=E3=82=AA, Meiryo, '=EF=BC=AD=
+=EF=BC=B3 =EF=BC=B0=E3=82=B4=E3=82=B7=E3=83=83=E3=82=AF', Calibri, Geneva, =
+Display, Tahoma, Verdana, sans-serif; font-size: 14px; display: block; marg=
+in: 0; padding: 0; text-decoration: none; color: #292b33; " alt=3D"" border=
+=3D"0" class=3D"img-max"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table class=3D"responsive-table" width=3D"600" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" align=3D"center" valign=3D"top" bgcolor=3D"#15171e" s=
+tyle=3D"width: 600px; min-width: 600px; border-spacing: 0; border-collapse:=
+ collapse; margin: 0 auto; word-wrap: break-word; word-break: break-word; -=
+ms-word-break: break-word; overflow-wrap: break-word; background-color: #15=
+171e; background-image:linear-gradient(#15171e,#15171e);">
+<tr>
+<td
+class=3D"body-text-section-padding-0px-15px-10px"
+style=3D"padding: 0;"
+align=3D"center"
+>
+<table class=3D"responsive-table" width=3D"600" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td
+bgcolor=3D"#15171e"
+>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" styl=
+e=3D"width: 100%; min-width: 100%; border-spacing: 0; border-collapse: coll=
+apse; word-wrap: break-word; word-break: break-word; -ms-word-break: break-=
+word; overflow-wrap: break-word;">
+<tr>
+<td class=3D"body-text-padding-0px-5p-30px-font-12px-left" style=3D"font-fa=
+mily: 'Noto Sans', 'Open Sans', Frutiger, 'Frutiger Linotype', Univers, 'He=
+lvetica Neue', Helvetica, Arial, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro',=
+ Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', 'Malg=
+un Gothic', 'Microsoft YaHei', AppleSDGothicNeo, AppleGothic, Dotum, 'Micro=
+soft JhengHei', 'Hiragino Kaku Gothic Pro', 'Hiragino Kaku Gothic ProN W3',=
+ Osaka, =E3=83=A1=E3=82=A4=E3=83=AA=E3=82=AA, Meiryo, '=EF=BC=AD=EF=BC=B3 =
+=EF=BC=B0=E3=82=B4=E3=82=B7=E3=83=83=E3=82=AF', Calibri, Geneva, Display, T=
+ahoma, Verdana, sans-serif; font-size: 14px; font-weight: 400; line-height:=
+ 24px; text-align: left; padding: 0 40px 40px; color: #d5d7dd;">
+<table id=3D"" class=3D"" style=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%" height=3D""><tr><td style=3D"font-family: 'Noto S=
+ans', 'Open Sans', Frutiger, 'Frutiger Linotype', Univers, 'Helvetica Neue'=
+, Helvetica, Arial, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'Dej=
+aVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', 'Malgun Gothic', '=
+Microsoft YaHei', AppleSDGothicNeo, AppleGothic, Dotum, 'Microsoft JhengHei=
+', 'Hiragino Kaku Gothic Pro', 'Hiragino Kaku Gothic ProN W3', Osaka, =E3=
+=83=A1=E3=82=A4=E3=83=AA=E3=82=AA, Meiryo, '=EF=BC=AD=EF=BC=B3 =EF=BC=B0=E3=
+=82=B4=E3=82=B7=E3=83=83=E3=82=AF', Calibri, Geneva, Display, Tahoma, Verda=
+na, sans-serif;font-weight: 700; font-size: 18px; color: #FFFFFF; line-heig=
+ht: 26px;">Gameplay-Bericht f=C3=BCr 14 Oktober 2023 =E2=80=93 21 Oktober 2=
+023</td></tr></table>
+<p style=3D" ">Lieber Elternteil oder leibe*r Erziehungsberechtigte*r,</p>
+<p style=3D" ">unten finden Sie den Gameplay-Bericht f=C3=BCr den World of =
+Warcraft=C2=AE-Account 122305714#1 Ihres Kindes.</p>
+<p style=3D" "> Um erlaubte Spielzeiten und -dauer Ihres Kindes einzustelle=
+n, k=C3=B6nnen Sie:
+<ul>
+<li>Den <a style=3D"font-family: 'Noto Sans', 'Open Sans', Frutiger, 'Fruti=
+ger Linotype', Univers, 'Helvetica Neue', Helvetica, Arial, 'Gill Sans', 'G=
+ill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sa=
+ns', 'Nimbus Sans L', 'Malgun Gothic', 'Microsoft YaHei', AppleSDGothicNeo,=
+ AppleGothic, Dotum, 'Microsoft JhengHei', 'Hiragino Kaku Gothic Pro', 'Hir=
+agino Kaku Gothic ProN W3', Osaka, =E3=83=A1=E3=82=A4=E3=83=AA=E3=82=AA, Me=
+iryo, '=EF=BC=AD=EF=BC=B3 =EF=BC=B0=E3=82=B4=E3=82=B7=E3=83=83=E3=82=AF', C=
+alibri, Geneva, Display, Tahoma, Verdana, sans-serif;color: #148eff !import=
+ant; text-decoration: underline !important; display: inline-block" href=3D"=
+https://account.blizzard.com/parent-portal" target=3D"_blank">Elternportal<=
+/a>
+mit Ihrer E-Mail-Adresse der Eltern/Erziehungsberechtigten aufrufen.</li>
+<li>Sich in den Accounteinstellungen in den Account Ihres Kindes einloggen =
+und auf <a style=3D"font-family: 'Noto Sans', 'Open Sans', Frutiger, 'Fruti=
+ger Linotype', Univers, 'Helvetica Neue', Helvetica, Arial, 'Gill Sans', 'G=
+ill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sa=
+ns', 'Nimbus Sans L', 'Malgun Gothic', 'Microsoft YaHei', AppleSDGothicNeo,=
+ AppleGothic, Dotum, 'Microsoft JhengHei', 'Hiragino Kaku Gothic Pro', 'Hir=
+agino Kaku Gothic ProN W3', Osaka, =E3=83=A1=E3=82=A4=E3=83=AA=E3=82=AA, Me=
+iryo, '=EF=BC=AD=EF=BC=B3 =EF=BC=B0=E3=82=B4=E3=82=B7=E3=83=83=E3=82=AF', C=
+alibri, Geneva, Display, Tahoma, Verdana, sans-serif;color: #148eff !import=
+ant; text-decoration: underline !important; display: inline-block" href=3D"=
+https://account.blizzard.com/parental-controls" target=3D"_blank">Elterlich=
+e Freigabe</a>
+klicken.</li>
+</ul>
+</p>
+<p style=3D" ">Die K=C3=A4ufe Ihres Kindes k=C3=B6nnen in den Accounteinste=
+llungen unter <a style=3D"font-family: 'Noto Sans', 'Open Sans', Frutiger, =
+'Frutiger Linotype', Univers, 'Helvetica Neue', Helvetica, Arial, 'Gill San=
+s', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberat=
+ion Sans', 'Nimbus Sans L', 'Malgun Gothic', 'Microsoft YaHei', AppleSDGoth=
+icNeo, AppleGothic, Dotum, 'Microsoft JhengHei', 'Hiragino Kaku Gothic Pro'=
+, 'Hiragino Kaku Gothic ProN W3', Osaka, =E3=83=A1=E3=82=A4=E3=83=AA=E3=82=
+=AA, Meiryo, '=EF=BC=AD=EF=BC=B3 =EF=BC=B0=E3=82=B4=E3=82=B7=E3=83=83=E3=82=
+=AF', Calibri, Geneva, Display, Tahoma, Verdana, sans-serif;color: #148eff =
+!important; text-decoration: underline !important; display: inline-block" h=
+ref=3D"https://account.blizzard.com/transactions" target=3D"_blank">Transak=
+tionsverlauf</a>
+eingesehen werden.</p>
+<p style=3D" ">Mehr Informationen finden Sie hier: <a style=3D"font-family:=
+ 'Noto Sans', 'Open Sans', Frutiger, 'Frutiger Linotype', Univers, 'Helveti=
+ca Neue', Helvetica, Arial, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myri=
+ad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', 'Malgun Go=
+thic', 'Microsoft YaHei', AppleSDGothicNeo, AppleGothic, Dotum, 'Microsoft =
+JhengHei', 'Hiragino Kaku Gothic Pro', 'Hiragino Kaku Gothic ProN W3', Osak=
+a, =E3=83=A1=E3=82=A4=E3=83=AA=E3=82=AA, Meiryo, '=EF=BC=AD=EF=BC=B3 =EF=BC=
+=B0=E3=82=B4=E3=82=B7=E3=83=83=E3=82=AF', Calibri, Geneva, Display, Tahoma,=
+ Verdana, sans-serif;color: #148eff !important; text-decoration: underline =
+!important; display: inline-block" href=3D"https://eu.battle.net//support/a=
+rticle/32243" target=3D"_blank">Kundendienst-Artikel zur Elterlichen Freiga=
+be</a>
+</p>
+<p> Mit freundlichen Gr=C3=BC=C3=9Fen<br/>
+Das Battle.net-Accountteam
+</p>
+<hr style=3D"" />
+<table id=3D"" class=3D"" style=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%" height=3D""><tr><td style=3D"font-family: 'Noto S=
+ans', 'Open Sans', Frutiger, 'Frutiger Linotype', Univers, 'Helvetica Neue'=
+, Helvetica, Arial, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'Dej=
+aVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', 'Malgun Gothic', '=
+Microsoft YaHei', AppleSDGothicNeo, AppleGothic, Dotum, 'Microsoft JhengHei=
+', 'Hiragino Kaku Gothic Pro', 'Hiragino Kaku Gothic ProN W3', Osaka, =E3=
+=83=A1=E3=82=A4=E3=83=AA=E3=82=AA, Meiryo, '=EF=BC=AD=EF=BC=B3 =EF=BC=B0=E3=
+=82=B4=E3=82=B7=E3=83=83=E3=82=AF', Calibri, Geneva, Display, Tahoma, Verda=
+na, sans-serif;font-weight: 700; font-size: 18px; color: #FFFFFF; line-heig=
+ht: 26px;">Gameplay-Bericht f=C3=BCr 14 Oktober 2023 =E2=80=93 21 Oktober 2=
+023</td></tr></table>
+<table id=3D"" class=3D"" style=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%" height=3D""> <thead>
+<tr>
+<td> <p style=3D" ">Datum/Zeit des Einloggens</p>
+</td>
+<td> <p style=3D" ">Datum/Zeit des Ausloggens*</p>
+</td>
+<td> <p style=3D" ">Minuten gespielt</p>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong> <p style=3D" ">14 October 2023 06:19:47 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">14 October 2023 08:15:23 AM</p>
+</strong></td>
+x<td><strong> <p style=3D" ">115</p>x
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">14 October 2023 08:19:36 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">14 October 2023 08:28:36 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">9</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">14 October 2023 08:29:28 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">14 October 2023 09:16:53 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">47</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">14 October 2023 10:14:39 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">14 October 2023 10:16:40 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">2</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">14 October 2023 10:18:02 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">14 October 2023 10:22:43 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">4</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">14 October 2023 10:51:05 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">14 October 2023 15:25:15 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">274</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">14 October 2023 15:54:06 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">14 October 2023 16:00:05 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">5</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">14 October 2023 16:00:14 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">14 October 2023 16:03:31 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">3</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">14 October 2023 16:04:37 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">14 October 2023 16:07:04 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">2</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">14 October 2023 16:08:07 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">14 October 2023 16:21:16 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">13</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">14 October 2023 16:22:57 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">14 October 2023 16:34:31 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">11</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">14 October 2023 16:55:27 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">14 October 2023 21:43:15 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">287</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">14 October 2023 21:46:27 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">14 October 2023 21:49:12 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">2</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">14 October 2023 21:50:21 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">14 October 2023 22:44:34 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">54</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">15 October 2023 08:41:03 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15 October 2023 09:14:30 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">33</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">15 October 2023 09:14:39 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15 October 2023 10:41:34 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">86</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">15 October 2023 10:44:14 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15 October 2023 12:27:19 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">103</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">15 October 2023 12:27:34 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15 October 2023 13:27:38 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">60</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">15 October 2023 13:28:15 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15 October 2023 13:58:16 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">30</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">15 October 2023 13:59:46 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15 October 2023 14:38:09 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">38</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">15 October 2023 14:38:17 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15 October 2023 15:03:22 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">25</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">15 October 2023 15:10:49 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15 October 2023 15:16:11 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">5</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">15 October 2023 15:16:20 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15 October 2023 15:19:28 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">3</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">15 October 2023 15:19:40 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15 October 2023 15:29:21 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">9</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">15 October 2023 15:29:31 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15 October 2023 15:32:16 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">2</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">15 October 2023 15:32:28 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15 October 2023 15:34:39 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">2</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">15 October 2023 15:40:15 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15 October 2023 15:43:38 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">3</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">15 October 2023 15:48:02 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15 October 2023 15:53:14 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">5</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">15 October 2023 15:53:22 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15 October 2023 15:55:56 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">2</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">15 October 2023 15:56:07 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15 October 2023 16:53:22 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">57</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">15 October 2023 16:56:48 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15 October 2023 17:07:05 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">10</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">15 October 2023 17:09:54 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15 October 2023 21:45:35 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">275</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">15 October 2023 21:45:44 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15 October 2023 21:51:52 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">6</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">16 October 2023 15:35:03 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">16 October 2023 15:45:08 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">10</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">16 October 2023 15:48:55 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">16 October 2023 16:00:03 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">11</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">16 October 2023 16:17:53 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">16 October 2023 16:32:43 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">14</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">16 October 2023 16:32:52 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">16 October 2023 16:42:50 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">9</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">16 October 2023 16:44:08 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">16 October 2023 17:00:25 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">16</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">16 October 2023 17:00:58 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">16 October 2023 17:03:27 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">2</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">16 October 2023 17:03:36 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">16 October 2023 17:44:02 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">40</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">16 October 2023 17:44:40 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">16 October 2023 20:43:29 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">178</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">16 October 2023 20:46:27 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">16 October 2023 20:50:37 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">4</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">16 October 2023 20:50:54 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">16 October 2023 21:05:36 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">14</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">17 October 2023 06:08:33 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">17 October 2023 07:48:13 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">99</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">17 October 2023 07:48:26 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">17 October 2023 08:03:56 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">17 October 2023 15:45:41 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">17 October 2023 16:12:15 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">26</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">17 October 2023 16:17:26 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">17 October 2023 17:08:13 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">50</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">17 October 2023 18:14:35 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">17 October 2023 18:54:51 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">40</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">17 October 2023 18:56:45 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">17 October 2023 20:01:44 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">64</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">17 October 2023 20:03:49 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">17 October 2023 21:17:18 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">73</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">17 October 2023 21:17:55 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">17 October 2023 22:05:25 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">47</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">18 October 2023 07:07:20 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">18 October 2023 08:06:44 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">59</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">18 October 2023 08:08:54 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">18 October 2023 08:15:36 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">6</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">18 October 2023 15:16:54 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">18 October 2023 16:31:52 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">74</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">18 October 2023 16:32:55 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">18 October 2023 16:54:54 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">18 October 2023 16:56:38 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">18 October 2023 21:05:00 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">248</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">18 October 2023 21:05:07 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">18 October 2023 21:37:47 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">32</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">18 October 2023 21:39:44 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">18 October 2023 21:53:10 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">13</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">19 October 2023 06:21:14 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">19 October 2023 06:24:26 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">3</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">19 October 2023 06:24:36 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">19 October 2023 07:20:19 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">55</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">19 October 2023 07:22:43 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">19 October 2023 07:37:14 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">14</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">19 October 2023 07:37:21 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">19 October 2023 07:40:48 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">3</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">19 October 2023 16:42:19 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">19 October 2023 16:56:42 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">14</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">19 October 2023 18:04:28 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">19 October 2023 22:07:48 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">243</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">19 October 2023 22:08:04 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">19 October 2023 22:12:00 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">3</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">19 October 2023 22:13:00 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">19 October 2023 22:19:40 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">6</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">20 October 2023 07:25:07 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">20 October 2023 07:28:04 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">2</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">20 October 2023 15:03:46 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">20 October 2023 15:09:16 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">5</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">20 October 2023 15:15:47 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">20 October 2023 15:52:03 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">36</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">20 October 2023 16:09:25 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">20 October 2023 16:55:12 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">45</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">20 October 2023 21:41:00 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">20 October 2023 21:43:45 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">2</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">20 October 2023 21:44:00 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">20 October 2023 22:43:29 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">59</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">20 October 2023 22:43:36 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">20 October 2023 22:48:26 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">4</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">20 October 2023 22:48:34 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">20 October 2023 23:04:32 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">20 October 2023 23:04:40 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">20 October 2023 23:30:58 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">26</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">20 October 2023 23:31:06 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">20 October 2023 23:40:29 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">9</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">20 October 2023 23:41:21 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">20 October 2023 23:52:51 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">11</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">20 October 2023 23:53:07 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 00:03:45 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">10</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 00:28:08 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 00:36:42 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">8</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 00:36:49 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 00:49:45 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">12</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 00:49:51 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 00:54:46 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">4</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 09:49:19 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 09:52:38 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">3</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 09:52:53 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 09:56:35 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">3</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 09:56:50 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 10:00:28 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">3</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 10:00:39 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 10:03:44 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">3</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 10:03:54 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 10:21:32 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">17</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 10:22:06 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 11:04:55 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">42</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 11:30:02 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 16:04:07 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">274</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 16:04:15 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 16:16:45 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">12</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 16:17:11 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 17:09:56 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">52</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 17:10:14 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 17:13:25 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">3</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 17:16:02 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 17:24:21 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">8</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 17:24:44 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 18:26:23 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">61</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 18:26:30 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 18:34:44 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">8</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 18:36:03 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 18:45:01 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">8</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 18:45:17 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 21:53:35 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">188</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 22:00:41 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 22:10:27 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">9</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 22:10:35 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 22:33:58 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">23</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 22:34:06 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 23:16:10 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">42</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 23:33:48 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 23:39:23 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">5</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 23:47:03 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">21 October 2023 23:50:11 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">3</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">21 October 2023 23:53:06 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 00:29:12 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">36</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 00:33:06 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 00:35:17 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">2</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 00:35:36 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 00:38:20 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">2</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 00:38:27 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 01:28:48 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">50</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 01:33:33 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 02:24:24 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">50</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 02:25:45 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 02:30:58 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">5</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 09:52:23 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 09:59:49 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">7</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 10:00:01 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 13:57:33 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">237</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 13:58:00 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 14:01:42 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">3</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 14:02:00 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 14:06:00 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">4</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 14:06:07 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 14:09:48 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">3</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 14:12:33 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 14:17:45 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">5</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 14:18:02 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 14:20:07 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">2</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 14:20:13 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 14:22:13 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">2</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 14:22:21 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 15:38:46 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">76</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 15:38:53 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 15:44:29 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">5</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 16:42:39 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 16:46:38 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">3</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 16:46:48 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 20:49:13 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">242</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 20:52:28 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 21:28:50 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">36</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 21:28:59 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 21:36:28 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">7</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 21:40:04 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 22:40:30 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">60</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 22:41:42 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 23:00:48 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">19</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 23:01:02 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 23:10:52 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">9</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 23:10:59 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">22 October 2023 23:26:08 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">15</p>
+</strong></td>
+</tr>
+<tr>
+<td><strong> <p style=3D" ">22 October 2023 23:26:29 PM</p>
+</strong></td>
+<td><strong> <p style=3D" ">23 October 2023 00:17:11 AM</p>
+</strong></td>
+<td><strong> <p style=3D" ">50</p>
+</strong></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td>
+Minuten gespielt:
+</td>
+<td><strong>
+5033
+</strong>
+</td>
+</tr>
+</tfoot>
+</table>
+<hr style=3D""/><br/>
+<p>* Bitte gestatten Sie eine Abweichung von bis zu 5 Minuten zwischen dem =
+angegebenen Zeitpunkt des Ausloggens und dem tats=C3=A4chlichen Ausloggvorg=
+ang.</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table bgcolor=3D"#15171e" style=3D"background-color: #15171e; background-i=
+mage:linear-gradient(#15171e,#15171e);" class=3D"responsive-table">
+<tr>
+<td bgcolor=3D"#1a1c23" style=3D"background-color: #1a1c23; background-imag=
+e:linear-gradient(#1a1c23,#1a1c23);">
+<table class=3D"responsive-table" width=3D"600" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" align=3D"center" valign=3D"top" bgcolor=3D"#1a1c23" s=
+tyle=3D"width: 600px; min-width: 600px; border-spacing: 0; border-collapse:=
+ collapse; margin: 0 auto; word-wrap: break-word; word-break: break-word; -=
+ms-word-break: break-word; overflow-wrap: break-word; background-color: #1a=
+1c23; background-image:linear-gradient(#1a1c23,#1a1c23);">
+<tr>
+<td
+class=3D"footer-section-padding-0px"
+style=3D"height: 50px;"
+align=3D"center"
+>
+<table class=3D"responsive-table" width=3D"600" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td
+class=3D"footer-padding-0px-center"
+bgcolor=3D"#1a1c23"
+>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" styl=
+e=3D"width: 100%; min-width: 100%; border-spacing: 0; border-collapse: coll=
+apse; word-wrap: break-word; word-break: break-word; -ms-word-break: break-=
+word; overflow-wrap: break-word;">
+<tr>
+<td>
+<img src=3D"http://media.blizzard.com/emails/global/shared-components/space=
+r.gif" style=3D"line-height: 0; visibility: hidden; min-width: 600px; heigh=
+t: 1px; max-height: 1px; min-height: 1px; text-decoration: none; -ms-interp=
+olation-mode: bicubic; border: none;" height=3D"1" />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table class=3D"responsive-table" width=3D"600" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" align=3D"center" valign=3D"top" bgcolor=3D"#1a1c23" s=
+tyle=3D"width: 600px; min-width: 600px; border-spacing: 0; border-collapse:=
+ collapse; margin: 0 auto; word-wrap: break-word; word-break: break-word; -=
+ms-word-break: break-word; overflow-wrap: break-word; background-color: #1a=
+1c23; background-image:linear-gradient(#1a1c23,#1a1c23);">
+<tr>
+<td
+class=3D"footer-section-padding-25px-15px-25px"
+align=3D"center"
+>
+<table class=3D"responsive-table" width=3D"600" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td
+class=3D"logo"
+bgcolor=3D"#1a1c23"
+>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" styl=
+e=3D"width: 100%; min-width: 100%; border-spacing: 0; border-collapse: coll=
+apse; word-wrap: break-word; word-break: break-word; -ms-word-break: break-=
+word; overflow-wrap: break-word;">
+<tr>
+<td width=3D"600" align=3D"center" bgcolor=3D"#1a1c23">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center">
+<a href=3D"http://blizzard.com/" target=3D"_blank" alias=3D"BLIZZARD ENTERT=
+AINMENT">
+<img src=3D"https://bnetproduct-a.akamaihd.net/1b/e9ec59a28e906d872a0ac7c52=
+9b4bad9-blizzard-s.png" width=3D"121" height=3D"85" style=3D"font-family: '=
+Noto Sans', 'Open Sans', Frutiger, 'Frutiger Linotype', Univers, 'Helvetica=
+ Neue', Helvetica, Arial, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad=
+, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', 'Malgun Goth=
+ic', 'Microsoft YaHei', AppleSDGothicNeo, AppleGothic, Dotum, 'Microsoft Jh=
+engHei', 'Hiragino Kaku Gothic Pro', 'Hiragino Kaku Gothic ProN W3', Osaka,=
+ =E3=83=A1=E3=82=A4=E3=83=AA=E3=82=AA, Meiryo, '=EF=BC=AD=EF=BC=B3 =EF=BC=
+=B0=E3=82=B4=E3=82=B7=E3=83=83=E3=82=AF', Calibri, Geneva, Display, Tahoma,=
+ Verdana, sans-serif; font-size: 14px; display: block; margin: 0; padding: =
+0; text-decoration: none; color: #292b33; margin: 0 auto; display: inline-b=
+lock !important;" alt=3D"BLIZZARD ENTERTAINMENT" border=3D"0" class=3D""/>
+</a>
+<a href=3D"https://battle.net" target=3D"_blank" alias=3D"Battle.net">
+<img src=3D"https://bnetproduct-a.akamaihd.net/fda/5a12cc0d071f5fdee6da12a1=
+c97fa8cf-battlenet-s.png" width=3D"121" height=3D"85" style=3D"font-family:=
+ 'Noto Sans', 'Open Sans', Frutiger, 'Frutiger Linotype', Univers, 'Helveti=
+ca Neue', Helvetica, Arial, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myri=
+ad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', 'Malgun Go=
+thic', 'Microsoft YaHei', AppleSDGothicNeo, AppleGothic, Dotum, 'Microsoft =
+JhengHei', 'Hiragino Kaku Gothic Pro', 'Hiragino Kaku Gothic ProN W3', Osak=
+a, =E3=83=A1=E3=82=A4=E3=83=AA=E3=82=AA, Meiryo, '=EF=BC=AD=EF=BC=B3 =EF=BC=
+=B0=E3=82=B4=E3=82=B7=E3=83=83=E3=82=AF', Calibri, Geneva, Display, Tahoma,=
+ Verdana, sans-serif; font-size: 14px; display: block; margin: 0; padding: =
+0; text-decoration: none; color: #292b33; margin: 0 auto; display: inline-b=
+lock !important;" alt=3D"Battle.net" border=3D"0" class=3D""/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table class=3D"responsive-table" width=3D"600" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" align=3D"center" valign=3D"top" bgcolor=3D"#1a1c23" s=
+tyle=3D"width: 600px; min-width: 600px; border-spacing: 0; border-collapse:=
+ collapse; margin: 0 auto; word-wrap: break-word; word-break: break-word; -=
+ms-word-break: break-word; overflow-wrap: break-word; background-color: #1a=
+1c23; background-image:linear-gradient(#1a1c23,#1a1c23);">
+<tr>
+<td
+class=3D"footer-section-padding-10px-15px-10px"
+style=3D"padding: 0 0 40px;"
+align=3D"center"
+>
+<table class=3D"responsive-table" width=3D"600" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td
+bgcolor=3D"#1a1c23"
+>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" styl=
+e=3D"width: 100%; min-width: 100%; border-spacing: 0; border-collapse: coll=
+apse; word-wrap: break-word; word-break: break-word; -ms-word-break: break-=
+word; overflow-wrap: break-word;">
+<tr>
+<td class=3D"footer-padding-10px-5p-10px-left" style=3D"font-family: 'Noto =
+Sans', 'Open Sans', Frutiger, 'Frutiger Linotype', Univers, 'Helvetica Neue=
+', Helvetica, Arial, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'De=
+jaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', 'Malgun Gothic', =
+'Microsoft YaHei', AppleSDGothicNeo, AppleGothic, Dotum, 'Microsoft JhengHe=
+i', 'Hiragino Kaku Gothic Pro', 'Hiragino Kaku Gothic ProN W3', Osaka, =E3=
+=83=A1=E3=82=A4=E3=83=AA=E3=82=AA, Meiryo, '=EF=BC=AD=EF=BC=B3 =EF=BC=B0=E3=
+=82=B4=E3=82=B7=E3=83=83=E3=82=AF', Calibri, Geneva, Display, Tahoma, Verda=
+na, sans-serif; font-size: 12px; font-weight: 400; line-height: 18px; text-=
+align: center; padding: 20px 40px 0; color: #d5d7dd;">
+Falls Sie Fragen oder Bedenken haben, besuchen Sie die <a style=3D"font-fam=
+ily: 'Noto Sans', 'Open Sans', Frutiger, 'Frutiger Linotype', Univers, 'Hel=
+vetica Neue', Helvetica, Arial, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', =
+Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', 'Malgu=
+n Gothic', 'Microsoft YaHei', AppleSDGothicNeo, AppleGothic, Dotum, 'Micros=
+oft JhengHei', 'Hiragino Kaku Gothic Pro', 'Hiragino Kaku Gothic ProN W3', =
+Osaka, =E3=83=A1=E3=82=A4=E3=83=AA=E3=82=AA, Meiryo, '=EF=BC=AD=EF=BC=B3 =
+=EF=BC=B0=E3=82=B4=E3=82=B7=E3=83=83=E3=82=AF', Calibri, Geneva, Display, T=
+ahoma, Verdana, sans-serif;color: #148eff !important; text-decoration: unde=
+rline !important; display: inline-block" href=3D"https://eu.battle.net/supp=
+ort/" target=3D"_blank">Blizzard-Kundendienstseite</a>.
+<br />
+<a style=3D"font-family: 'Noto Sans', 'Open Sans', Frutiger, 'Frutiger Lino=
+type', Univers, 'Helvetica Neue', Helvetica, Arial, 'Gill Sans', 'Gill Sans=
+ MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Ni=
+mbus Sans L', 'Malgun Gothic', 'Microsoft YaHei', AppleSDGothicNeo, AppleGo=
+thic, Dotum, 'Microsoft JhengHei', 'Hiragino Kaku Gothic Pro', 'Hiragino Ka=
+ku Gothic ProN W3', Osaka, =E3=83=A1=E3=82=A4=E3=83=AA=E3=82=AA, Meiryo, '=
+=EF=BC=AD=EF=BC=B3 =EF=BC=B0=E3=82=B4=E3=82=B7=E3=83=83=E3=82=AF', Calibri,=
+ Geneva, Display, Tahoma, Verdana, sans-serif;color: #148eff !important; te=
+xt-decoration: underline !important; display: inline-block" href=3D"https:/=
+/eu.blizzard.com/privacy" target=3D"_blank">Datenschutzrichtlinien</a>
+<br />
+Activision Blizzard UK Ltd, The Ampersand Building, 178 Wardour Street, Lon=
+don W1F 8FY, United Kingdom
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table class=3D"responsive-table" width=3D"600" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" align=3D"center" valign=3D"top" bgcolor=3D"#1a1c23" s=
+tyle=3D"width: 600px; min-width: 600px; border-spacing: 0; border-collapse:=
+ collapse; margin: 0 auto; word-wrap: break-word; word-break: break-word; -=
+ms-word-break: break-word; overflow-wrap: break-word; background-color: #1a=
+1c23; background-image:linear-gradient(#1a1c23,#1a1c23);">
+<tr>
+<td
+align=3D"center"
+>
+<table class=3D"responsive-table" width=3D"600" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td
+bgcolor=3D"#1a1c23"
+>
+<table class=3D"mobile-hide" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0">
+<tr>
+<td class=3D"mobile-hide" style=3D"font-size: 0; line-height: 0; visibility=
+: hidden; min-width: 600px; height: 1px; max-height: 1px; min-height: 1px; =
+text-decoration: none; -ms-interpolation-mode: bicubic; border: none;" heig=
+ht=3D"1">
+<img src=3D"http://media.blizzard.com/emails/global/shared-components/space=
+r.gif" style=3D"line-height: 0; visibility: hidden; min-width: 600px; heigh=
+t: 1px; max-height: 1px; min-height: 1px; text-decoration: none; -ms-interp=
+olation-mode: bicubic; border: none;" height=3D"1" />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</center>
+</body>
+</html>
+
+------=_Part_3896966_758229854.1698034820976--
+
+------=_Part_3896965_1280645982.1698034820976--
